@@ -1,5 +1,6 @@
 export const data = [
   {id:0, name:'testaddition',status:'tested'},
+  {id:1, name:'testingnewaddition',status:'testit'},
   { id: 1, name: 'responsive', status: 'ongoing' },
   { id: 2, name: 'client-server', status: 'ongoing' },
   { id: 3, name: 'concept', status: 'new' },
