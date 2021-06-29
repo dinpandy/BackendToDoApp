@@ -34,6 +34,8 @@ jobs:
 
     steps:
       # Setup gcloud CLI
+      - uses: actions/checkout@v1
+      - uses: exelban/gcloud@master
       - uses: google-github-actions/setup-gcloud@master
         with:
           service_account_key: ${{ secrets.GCP_DEPLOY_CREDENTIALS }}
